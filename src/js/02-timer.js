@@ -26,7 +26,8 @@ const options = {
   onClose(selectedDates) {
     console.log(selectedDates[0]);
     if (selectedDates[0] < date) {
-      Notiflix.Notify.warning('Please choose a date in the future');
+      alert('Dbllflfasdf');
+      // Notiflix.Notify.warning('Please choose a date in the future');
     } else {
       refs.startBtn.removeAttribute('disabled', '');
       userChoosenTime = +selectedDates[0].getTime();
