@@ -22,7 +22,7 @@ function onClickBtn(e) {
       }, firstDelay);
    });
      }   
-  createPromise(counter, delayStep)
+  createPromise(counter, firstDelay)
   .then(({ counter, delayStep }) => {
     Notiflix.Notify.info(`✅ Fulfilled promise ${counter} in ${delayStep}ms`);
   })
